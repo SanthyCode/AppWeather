@@ -33,8 +33,6 @@ const CardWeader = ({ lat, lon }) => {
 
 const handleClick = () => setIsCelsuis(!isCelsuis)
 
-console.log(weather)
-
 if (isLoading){
    return <Loading />
 } else {
@@ -62,7 +60,6 @@ if (isLoading){
 
 }
 
-    console.log(weather)
 
 }
 
