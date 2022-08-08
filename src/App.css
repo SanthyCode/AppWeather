@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: black;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.loading {
+    position: -webkit-sticky;
+    background-image: url(https://i0.wp.com/enlacelatinonc.org/wp-content/uploads/2022/06/El-Clima-4.jpg?fit=1200%2C676&ssl=1);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading__text {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+
+.App {
+    font-family: 'Signika Negative', sans-serif;
+    max-width: 100%;
+    color: blueviolet;
+    font-weight: bolder;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/riZrG8uVoQwwA7FbW78Yh4.jpg);
+}
+
+.Card {
+    text-align: center;
+    background-color: rgb(255, 255, 255, .8);
+    margin: auto;
+    max-width: 30rem;
+    border-radius: 20px;
+    padding: 24px;
+    -webkit-box-shadow: 0px 0px 22px 2px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 0px 22px 2px rgba(0, 0, 0, 0.44);
+
+}
+
+.Card h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.Card h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.Card__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.Card__image {
+    text-align: center;
+    padding-top: 0;
+}
+
+.card-li {
+    text-align: center;
+    line-height: 150%;
+}
+
+.Card__info {
+
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    padding-bottom: 23px;
+    box-sizing: border-box;
+    text-align: justify;
+
+}
+
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 8px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+img {
+    filter: drop-shadow(2px 4px 6px blueviolet);
+}
